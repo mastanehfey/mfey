@@ -11,6 +11,13 @@ import logo10 from './logo-design/portfolio-logo10.jpg'
 import logo11 from './logo-design/portfolio-logo11.jpg'
 import logo12 from './logo-design/portfolio-logo12.jpg'
 import logo13 from './logo-design/portfolio-logo13.jpg'
+import logo14 from './logo-design/portfolio-logo14.jpg'
+import logo15 from './logo-design/portfolio-logo15.jpg'
+import logo16 from './logo-design/portfolio-logo16.jpg'
+import logo17 from './logo-design/portfolio-logo17.jpg'
+import logo18 from './logo-design/portfolio-logo18.jpg'
+import logo19 from './logo-design/portfolio-logo19.jpg'
+import logo20 from './logo-design/portfolio-logo20.jpg'
 export default[
-    logo1,logo2,logo3,logo4,logo5,logo6,logo7,logo8,logo9,logo10,logo11,logo12,logo13
+    logo1,logo2,logo3,logo4,logo5,logo6,logo7,logo8,logo9,logo10,logo11,logo12,logo13,logo14,logo15,logo16,logo17,logo18,logo19,logo20
 ]

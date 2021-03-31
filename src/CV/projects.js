@@ -18,63 +18,103 @@ import logo7 from './project-images/logo7.png'
 import logo8 from './project-images/logo8.png'
 import logo9 from './project-images/logo9.png'
 import logo10 from './project-images/logo10.png'
+import imgPages1 from './project-images/project-1-detail.jpg'
+import imgPages2 from './project-images/project-2-detail.jpg'
+import imgPages3 from './project-images/project-3-detail.jpg'
+import imgPages4 from './project-images/project-4-detail.jpg'
+import imgPages5 from './project-images/project-5-detail.jpg'
+import imgPages6 from './project-images/project-6-detail.jpg'
+import imgPages7 from './project-images/project-7-detail.jpg'
+import imgPages8 from './project-images/project-8-detail.jpg'
+import imgPages9 from './project-images/project-9-detail.jpg'
+import imgPages10 from './project-images/project-10-detail.jpg'
 export default[
     {
-        "name":"Friendy's Restaurant",
+        "name":"Friendly's Restaurant (Template)",
         "link":"http://template1.ml/",
         "image": imgProject1,
-        "logo":logo1
+        "pagesimage":imgPages1,
+        "logo":logo1,
+        "desc":"Friendly's is a restaurant responsive website template. It has online order feature, and user can add favourite foods to their wishlist. Website has programmed with REACT and JavaScript. Content is fetched from Contentful and the app Uses the browsers Local storage to keep the cart and wishlist.",
+        "technology":"HTML, CSS, JavaScript, React, Contentful"
     },
     {
-        "name":"Project 2",
+        "name":"Glamira World Jewelry (Template)",
         "link":"http://template2.ml/",
         "image":imgProject2,
-        "logo":logo2
+        "pagesimage":imgPages2,
+        "logo":logo2,
+        "desc":"Glamira is an online jewelry store template. It has sort and filter product feature, and user can add favourite items to their wishlist. Website has programmed with REACT and JavaScript. Content is fetched from Contentful and the app Uses the browsers Local storage to keep the cart and wishlist.",
+        "technology":"HTML, CSS, JavaScript, React, Contentful, Styled-Components"
     },
     {
-        "name":"Project 3",
+        "name":"Beach Resort Rooms (Template)",
         "link":"http://template3.ml/",
         "image":imgProject3,
-        "logo":logo3
+        "pagesimage":imgPages3,
+        "logo":logo3,
+        "desc":"Beach Resort is a room search muckup for a hotel website which gives the user ability of searching rooms based on different options. Website has programmed with REACT and JavaScript. All rooms images and detail information is stored in Contentful.",
+        "technology":"HTML, CSS, JavaScript, React, Contentful"
     },
     {
-        "name":"Project 4",
+        "name":"Mani Mahaseni Realtor",
         "link":"http://www.manimahaseni.ca/",
         "image":imgProject4,
-        "logo":logo4
+        "pagesimage":imgPages4,
+        "logo":logo4,
+        "desc":"Mani Mahaseni is a responsive Real Estate website. Website has programmed with JavaScript.",
+        "technology":"HTML, CSS, JavaScript, jQuery"
     },
     {
-        "name":"Project 5",
+        "name":"Royal blue Solutions (Template)",
         "link":"http://template4.ml/",
         "image":imgProject5,
-        "logo":logo5
+        "pagesimage":imgPages5,
+        "logo":logo5,
+        "desc":"Royal Blue Solutions is a onepage responsive website for a Mortgage broker which never launched but I kept it in my portfolio. Website has programmed with JavaScript.",
+        "technology":"HTML, CSS, JavaScript, jQuery"
     },
     {
         "name":"AXA Systems",
         "link":"http://axasystems.ca/",
         "image":imgProject6,
-        "logo":logo6
+        "pagesimage":imgPages6,
+        "logo":logo6,
+        "desc":"AXA Systems is web design company. Website is responsive programmed with JavaScript.",
+        "technology":"HTML, CSS, JavaScript, jQuery, Bootstarp"
     },
     {
         "name":"West Pacific Construction",
         "link":"http://www.westpacificconstruction.com/",
         "image":imgProject7,
-        "logo":logo7
+        "pagesimage":imgPages7,
+        "logo":logo7,
+        "desc":"West Pacific Construction is a responsive website.They supply, distribute, and install wide range of products.",
+        "technology":"HTML, CSS, jQuery"
     },
     {
         "name":"Synergy Accounting",
         "link":"http://synergytax.com/",
         "image":imgProject8,
-        "logo":logo8
+        "pagesimage":imgPages8,
+        "logo":logo8,
+        "desc":"Synergy is an accounting firm which the website is on WordPress platform.",
+        "technology":"HTML, CSS, WordPress, jQuery"
     },{
         "name":"AXA Business Center",
         "link":"http://www.axabc.ca/",
         "image":imgProject9,
-        "logo":logo9
+        "pagesimage":imgPages9,
+        "logo":logo9,
+        "desc":"AXA Business Center is a website on WordPress platform. They offer physical and virtual office space rentals.",
+        "technology":"HTML, CSS, WordPress, jQuery"
     },{
         "name":"AXA Sandblasting",
         "link":"http://axasandblasting.ca/",
         "image":imgProject10,
-        "logo":logo10
+        "pagesimage":imgPages10,
+        "logo":logo10,
+        "desc":"AXA Sandblasting offers abrasive blasting industry services. Website is designed on WordPress platform." ,
+        "technology":"HTML, CSS, WordPress, jQuery"
     }
 ]

@@ -39,7 +39,7 @@ export default class Navbar extends Component {
         }        
     }
     setOffsetTop = () =>{
-        return 150
+        return 170
     }
     render() {
         return (
