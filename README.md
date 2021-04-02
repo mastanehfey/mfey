@@ -23,13 +23,13 @@ Project is created with:
 To run this project, install it locally using npm:
 
 ```
-$ cd ../Restaurant-Website-Template-REACT
+$ cd ../mfey
 $ npm install
 $ npm start
 ```
 
 ## Demo
-http://mfey.ml/
+https://www.mfey.net/
 
 
 # Getting Started with Create React App
