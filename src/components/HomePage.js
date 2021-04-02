@@ -119,7 +119,11 @@ export default function HomePage() {
                     <div className="intro-text">
                         <h2>I am Mastaneh Fey</h2>
                         <p>
-                        I am a Front-End Developer located in Vancouver. I currently work as a Web Developer in AXA Systems. I am looking to take on more work to increase my skills.<br/>I love facing challenges that allow me to grow and advance my skill-set.
+                        Proficient Front-End Developer at developing cutting-edge websites and applications for high-profile clients.<br/>
+                        Highly organized, proactive, problem-solver with high communication skills.<br/>
+                        With a team-oriented mentality, will fit into the team quickly to contribute to the organization’s goals.
+                        Will carry out the job to very high standards with hardworking nature.<br/>
+                        Looking to take the next step in the career to take on new opportunities and advance my skill-set.
                         </p>
                         <div className="contact-intro">
                             <p className="text-dark">Phone:</p><a href="tel: 778-882-3767"><p>778 882 3767</p></a>
