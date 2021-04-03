@@ -119,10 +119,11 @@ export default function HomePage() {
                     <div className="intro-text">
                         <h2>I am Mastaneh Fey</h2>
                         <p>
-                        Proficient Front-End Developer at developing cutting-edge websites and applications for high-profile clients.<br/>
+                        Proficient Front-End Developer helping customers design, create and publish their online presence.
+                        Coordinating with all parties engaged delivering the project.<br/>
                         Highly organized, proactive, problem-solver with high communication skills.<br/>
-                        With a team-oriented mentality, will fit into the team quickly to contribute to the organization’s goals.
-                        Will carry out the job to very high standards with hardworking nature.<br/>
+                        With a team-oriented mentality, I fit into the team quickly to contribute to the organization’s goals
+                        and carry out the job to very high standards with my hardworking nature.<br/>
                         Looking to take the next step in the career to take on new opportunities and advance my skill-set.
                         </p>
                         <div className="contact-intro">
