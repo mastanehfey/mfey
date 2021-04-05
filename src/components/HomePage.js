@@ -120,7 +120,7 @@ export default function HomePage() {
                         <h2>I am Mastaneh Fey</h2>
                         <p>
                         Proficient Front-End Developer helping customers design, create and publish their online presence.
-                        Coordinating with all parties engaged delivering the project.<br/>
+                        Coordinating with all parties engaged in delivering the project.<br/>
                         Highly organized, proactive, problem-solver with high communication skills.<br/>
                         With a team-oriented mentality, I fit into the team quickly to contribute to the organization’s goals
                         and carry out the job to very high standards with my hardworking nature.<br/>
@@ -212,12 +212,12 @@ export default function HomePage() {
                                 </span>
                                 <p>2017 - Present</p>
                                 <ul className="ul-customized">
-                                    <li>Design, develop, and deliver interactive front-end websites to grow sales for small to medium sized businesses</li>
-                                    <li>Design and code webpages using technologies and frameworks such as HTML, CSS, WordPress, JavaScript, and React</li>
-                                    <li>Meet with clients to discuss requirements and/or project progress</li>
-                                    <li>Responsible for setting up website hosting and domain name registration for clients</li>
-                                    <li>Work with clients to design, develop, modify and update their content.</li>
-                                    <li>Design logos, business cards, brochures and other printed materials</li>
+                                <li>Design, develop, and deliver interactive websites to grow sales for small to medium-sized businesses</li>
+                                <li>Design and code webpages using technologies and frameworks such as HTML, CSS, WordPress, JavaScript, and React</li>
+                                <li>Manage multiple projects effectively at once and meet deadlines</li>
+                                <li>Create successful websites that meet requirements for objectives such as load speed and design</li>
+                                <li>Design logos, business cards, brochures, and other printed materials</li>
+
                                 </ul>
                             </div>
                             <div className="experience-item">
@@ -226,13 +226,11 @@ export default function HomePage() {
                                 </span>
                                 <p>2009 - 2016</p>
                                 <ul className="ul-customized">
-                                    <li>Developed functional and appealing web and mobile based applications</li>
-                                    <li>Used HTML, CSS, JavaScript to develop web pages</li>
-                                    <li>Collaborate with back-end developers and web designers to implement new functionality, features and user experiences</li>
-                                    <li>Took designs and converted them into required HTML mock-ups</li>
-                                    <li>Provided website maintenance and enhancements</li>
-                                    <li>Met with clients and “end-users” to analyze their needs and advised them on the layout, color and style of an efficient website</li>
-                                    <li>Created logos, business cards, brochures and other printed materials</li>
+                                <li>Translated designers’ work into well-constructed HTML, CSS, and JavaScript</li>
+                                <li>Created, edited, and gathered website content such as text, video, audio, and media</li>
+                                <li>Collaborated with design and backend teammates to ensure my strategies are in alignment with the rest of the team</li>
+                                <li>Built and applied reusable code to reduce development hours</li>
+                                <li>Worked with customers to determine needs and work through design options</li>
                                 </ul>
                             </div>
                         </div>
