@@ -119,12 +119,11 @@ export default function HomePage() {
                     <div className="intro-text">
                         <h2>I am Mastaneh Fey</h2>
                         <p>
-                        Proficient Front-End Developer helping customers design, create and publish their online presence.
-                        Coordinating with all parties engaged in delivering the project.<br/>
-                        Highly organized, proactive, problem-solver with high communication skills.<br/>
-                        With a team-oriented mentality, I fit into the team quickly to contribute to the organization’s goals
-                        and carry out the job to very high standards with my hardworking nature.<br/>
-                        Looking to take the next step in the career to take on new opportunities and advance my skill-set.
+                        Proficient Front-End Developer helping customers to design, create and publish their online presence.
+                        Coordinating with all parties engaged in delivering the project to speed up delivery.
+                        Highly organized, proactive, problem-solver, self-motivated with high communication skills.<br/>
+                        With a team-oriented mentality, I fit into the team quickly to contribute to the organization’s goals and carry out the project to very high standards with my hardworking and smart working nature. 
+
                         </p>
                         <div className="contact-intro">
                             <p className="text-dark">Phone:</p><a href="tel: 778-882-3767"><p>778 882 3767</p></a>
@@ -175,6 +174,7 @@ export default function HomePage() {
                                 <li>NPM</li>
                                 <li>JSON / REST API</li>
                                 <li>Knowledge of SEO</li>
+                                <li>Agile methodogy / Scrum</li>
                             </ul>
                         </span>
                     </div>
@@ -183,13 +183,11 @@ export default function HomePage() {
                     </div>
                     <div className="skills-bottom-text skill-item-personal">
                         <ul>
-                            <li>Highly organized, detail oriented, self-motivated, and punctual</li>
-                            <li>Outstanding analytical, problem solving and communication skills</li>
-                            <li>Hard working, able to work independently and love to work within a team</li>
-                            <li>Ability to multi task and work with minimal supervision</li>
-                            <li>Great time management skills</li>
-                            <li>Excel at developing strong relationships with co-workers, managers and committed to support them in order to meet individual as well as team goals</li>
-                            <li>Willing to learn new skills</li>                        
+                            <li>Collaborate with customers to determine needs and work through design options</li>
+                            <li>Design and code webpages using technologies and frameworks such as HTML, CSS, WordPress, JavaScript, and React</li>
+                            <li>Manage multiple projects effectively at once and meet deadlines</li>
+                            <li>Create successful websites that meet requirements for objectives such as load speed and design</li>
+                            <li>Design logos, business cards, brochures, and other printed materials</li>                       
                         </ul>
                     </div>
                 </div>
@@ -212,12 +210,11 @@ export default function HomePage() {
                                 </span>
                                 <p>2017 - Present</p>
                                 <ul className="ul-customized">
-                                <li>Design, develop, and deliver interactive websites to grow sales for small to medium-sized businesses</li>
-                                <li>Design and code webpages using technologies and frameworks such as HTML, CSS, WordPress, JavaScript, and React</li>
-                                <li>Manage multiple projects effectively at once and meet deadlines</li>
-                                <li>Create successful websites that meet requirements for objectives such as load speed and design</li>
-                                <li>Design logos, business cards, brochures, and other printed materials</li>
-
+                                    <li>Design, develop, and deliver interactive websites to grow sales for small to medium-sized businesses</li>
+                                    <li>Design and code webpages using technologies and frameworks such as HTML, CSS, WordPress, JavaScript, and React</li>
+                                    <li>Manage multiple projects effectively at once and meet deadlines</li>
+                                    <li>Create successful websites that meet requirements for objectives such as load speed and design</li>
+                                    <li>Design logos, business cards, brochures, and other printed materials</li>
                                 </ul>
                             </div>
                             <div className="experience-item">
@@ -226,11 +223,11 @@ export default function HomePage() {
                                 </span>
                                 <p>2009 - 2016</p>
                                 <ul className="ul-customized">
-                                <li>Translated designers’ work into well-constructed HTML, CSS, and JavaScript</li>
-                                <li>Created, edited, and gathered website content such as text, video, audio, and media</li>
-                                <li>Collaborated with design and backend teammates to ensure my strategies are in alignment with the rest of the team</li>
-                                <li>Built and applied reusable code to reduce development hours</li>
-                                <li>Worked with customers to determine needs and work through design options</li>
+                                    <li>Created landing pages and web applications using HTML, CSS, and JavaScript</li>
+                                    <li>Created, edited, and gathered website content such as text, video, audio, and media</li>
+                                    <li>Collaborated with design and backend teammates to ensure my strategies are in alignment with the rest of the team</li>
+                                    <li>Built and applied reusable code to reduce development hours</li>
+                                    <li>Worked with customers to determine needs and work through design options</li>
                                 </ul>
                             </div>
                         </div>
@@ -251,15 +248,15 @@ export default function HomePage() {
                         <div className="experience-items-wrapper">
                             <div className="experience-item border-b">
                                 <span className="flex">
-                                    <h3>Computer software Engineering</h3> <p>&nbsp;&nbsp;Bachelor of Science - Tehran</p>
+                                    <h3>Computer software Engineering</h3> <p>&nbsp;&nbsp;Bachelor of Science</p>
                                 </span>
-                                <p>2002-2005</p>
+                                <p>Azad University - 2005</p>
                             </div>
                             <div className="experience-item">
                                 <span className="flex">
-                                <h3>Architecture</h3> <p>&nbsp;&nbsp;Associated Degree - Hamedan</p>
+                                <h3>Architecture</h3> <p>&nbsp;&nbsp;Associated Degree</p>
                                 </span>
-                                <p>1998-2001</p>
+                                <p>BouAli-Sina University - 2001</p>
                             </div>
                         </div>
                     </div>
