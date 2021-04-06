@@ -122,8 +122,8 @@ export default function HomePage() {
                         Proficient Front-End Developer helping customers to design, create and publish their online presence.
                         Coordinating with all parties engaged in delivering the project to speed up delivery.
                         Highly organized, proactive, problem-solver, self-motivated with high communication skills.<br/>
-                        With a team-oriented mentality, I fit into the team quickly to contribute to the organization’s goals and carry out the project to very high standards with my hardworking and smart working nature. 
-
+                        With a team-oriented mentality, I fit into the team quickly to contribute to the organization’s goals and carry out the project to very high standards with my hardworking and smart working nature. <br/>
+                        Looking to take the next step in the career to take on new opportunities and advance my skill-set.
                         </p>
                         <div className="contact-intro">
                             <p className="text-dark">Phone:</p><a href="tel: 778-882-3767"><p>778 882 3767</p></a>
