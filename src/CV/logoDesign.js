@@ -1,3 +1,4 @@
+
 import logo1 from './logo-design/portfolio-logo1.jpg'
 import logo2 from './logo-design/portfolio-logo2.jpg'
 import logo3 from './logo-design/portfolio-logo3.jpg'
@@ -18,6 +19,7 @@ import logo17 from './logo-design/portfolio-logo17.jpg'
 import logo18 from './logo-design/portfolio-logo18.jpg'
 import logo19 from './logo-design/portfolio-logo19.jpg'
 import logo20 from './logo-design/portfolio-logo20.jpg'
-export default[
+const logoArray = [
     logo1,logo2,logo3,logo4,logo5,logo6,logo7,logo8,logo9,logo10,logo11,logo12,logo13,logo14,logo15,logo16,logo17,logo18,logo19,logo20
 ]
+export default logoArray

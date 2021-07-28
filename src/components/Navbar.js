@@ -30,53 +30,79 @@ export default class Navbar extends Component {
             expandContainer.classList.remove('showMenu')
         }
     }
-    toggleExpandMenu = () =>{
-        const expandContainer = document.querySelector('.expand-menu-container')
-        if(expandContainer.classList.contains('showMenu')){
-            expandContainer.classList.remove('showMenu')
-        }else{
-            expandContainer.classList.add('showMenu')
-        }        
+    toggleExpandMenu = (e) =>{
+        if(e.type === 'click' || (e.type === 'keydown' && e.keyCode === 13) || (e.type === 'keydown' && e.keyCode === 27)){
+            const expandContainer = document.querySelector('.expand-menu-container')
+            if(expandContainer.classList.contains('showMenu')){
+                expandContainer.classList.remove('showMenu')
+                this.setState({
+                    menuOpen : false
+                })
+            }else{
+                expandContainer.classList.add('showMenu')
+                this.setState({
+                    menuOpen : true
+                })
+            } 
+        }       
     }
+
     setOffsetTop = () =>{
         return 170
     }
     render() {
+        window.addEventListener('DOMContentLoaded',()=>{
+            const burgerBtn = document.querySelector('.burger-btn')
+            burgerBtn.addEventListener('click', this.toggleExpandMenu)
+            burgerBtn.addEventListener('keydown', this.toggleExpandMenu)
+
+            const closeBtn = document.querySelector('.times-btn')
+            closeBtn.addEventListener('click', this.toggleExpandMenu)
+            closeBtn.addEventListener('keydown', this.toggleExpandMenu)
+        })
+        //to close the menu with ESC btn
+        window.addEventListener('keydown',(e)=>{
+            if(e.keyCode === 27 && this.state.menuOpen){
+                this.toggleExpandMenu(e)
+            }
+        })
         return (
-            <div className="navbar">
-                <div className="navbar-logo">
+        <header className="navbar-container">
+            <nav className="navbar" aria-label="main menu">
+                <div className="navbar-logo" aria-label="Home page Mastaneh Fey">
                     <AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'intro')} href="#intro">
-                    <img src={Logo} alt="logo" />
+                    <img src={Logo} alt="Home of Mastaneh Fey" />
                     </AnchorLink>
                 </div>
-                <div className="socialmedia-container">
-                    <a href="https://www.linkedin.com/in/mastaneh-fey/" target="_blank"><FaLinkedinIn /></a>
-                    <a href="https://www.facebook.com/mastaneh.fe" target="_blank"><FaFacebookF /></a>
-                    <a href="https://github.com/mastanehfey?tab=repositories" target="_blank"><FaGithub /></a>
-                </div>
-                <ul className="navbar-ul menu-item">
-                    <li><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'skills')} href="#skills">Skills</AnchorLink></li>
-                    <li><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'experience')} href="#experience">Experience</AnchorLink></li>
-                    <li><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'education')} href="#education">Education</AnchorLink></li>
-                    <li><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'portfolio')} href="#portfolio">Portfolio</AnchorLink></li>
-                    <li><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'contact')} href="#contact">Contact Me</AnchorLink></li>
+                <ul className="navbar-ul menu-item" role="menu">
+                    <li role="menuitem"><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'skills')} href="#skills">Skills</AnchorLink></li>
+                    <li role="menuitem"><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'experience')} href="#experience">Experience</AnchorLink></li>
+                    <li role="menuitem"><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'education')} href="#education">Education</AnchorLink></li>
+                    <li role="menuitem"><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'portfolio')} href="#portfolio">Portfolio</AnchorLink></li>
+                    <li role="menuitem"><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'contact')} href="#contact">Contact Me</AnchorLink></li>
                 </ul>
-                <div className="navbar-burger-menu" onClick={()=> this.toggleExpandMenu()}>
+                <div className="socialmedia-container">
+                    <a href="https://www.linkedin.com/in/mastaneh-fey/" target="_blank" rel="noreferrer" aria-label="social media linkedin"><FaLinkedinIn /></a>
+                    <a href="https://www.facebook.com/mastaneh.fe" target="_blank" rel="noreferrer" aria-label="social media facebook"><FaFacebookF /></a>
+                    <a href="https://github.com/mastanehfey?tab=repositories" target="_blank" rel="noreferrer" aria-label="social media github"><FaGithub /></a>
+                </div>
+                <div className="navbar-burger-menu burger-btn" tabIndex='0' aria-label="open menu">
                     <FaBars />
                 </div>
                 <div className="expand-menu-container">
-                    <div className="navbar-burger-menu times-icon" onClick={()=> this.toggleExpandMenu()}>
+                    <div className="navbar-burger-menu times-icon times-btn" tabIndex='0' aria-label="close menu">
                         <FaTimes />
                     </div>
-                    <ul className="navbar-expand-ul menu-item">
-                        <li><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'skills')} href="#skills">Skills</AnchorLink></li>
-                        <li><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'experience')} href="#experience">Experience</AnchorLink></li>
-                        <li><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'education')} href="#education">Education</AnchorLink></li>
-                        <li><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'portfolio')} href="#portfolio">Portfolio</AnchorLink></li>
-                        <li><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'contact')} href="#contact">Contact Me</AnchorLink></li>
+                    <ul className="navbar-expand-ul menu-item" role="menu">
+                        <li role="menuitem"><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'skills')} href="#skills">Skills</AnchorLink></li>
+                        <li role="menuitem"><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'experience')} href="#experience">Experience</AnchorLink></li>
+                        <li role="menuitem"><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'education')} href="#education">Education</AnchorLink></li>
+                        <li role="menuitem"><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'portfolio')} href="#portfolio">Portfolio</AnchorLink></li>
+                        <li role="menuitem"><AnchorLink offset={()=> this.setOffsetTop()} onClick={(e)=>this.handleClick(e,'contact')} href="#contact">Contact Me</AnchorLink></li>
                     </ul>
                 </div>
-            </div>
+            </nav>
+        </header>
         )
     }
 }
